@@ -8,20 +8,22 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Computer quiz</h1>
-    <form id="quiz-form">
-      <label>
-        <br>
-        In MS-Access press ctrl + O to:
-        <select id="quiz-answer">
-          <option value="a">OPen a new database</option>
-          <option value="b">Open an existing database</option>
-          <option value="c">Exit MS-Access</option>
-          </select>
-          </label> <br>
-          <button type="submit">ANSWER</button>
+    <h1>~~Computer Quiz~~</h1>
+    <form class="questions" id="qz" data="questions=10">
+
+        <p>In MS-Access press ctrl + O to:</p>
+        <ul>
+          <li><input name="qz" type="radio" value="a" />OPen a new database</li>
+          <li><input name="qz" type="radio" value="b" />Open an existing database</li>
+          <li><input name="qz" type="radio" value="c" />Exit MS-Access</li>
+        </ul>
+          <button id="submit">Submit</button>
           </form>
           <div id="result"></div>
-          <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+          <br>
+        </main>
+        <src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
   </body>
 </html>
