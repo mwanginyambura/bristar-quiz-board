@@ -3,15 +3,8 @@
    background-color: lightpink;
    font-family: sans-serif;
  };
- #main {
-   width: 80%;
-   max-width: 950px;
-   border: 1px gray solid;
-   margin: auto;
-   padding: 10px;
-   border-radius: 10px;
- };
-#header{
-	 color:grey;
-	  
+#h{
+	font-size: 20px;
+	 font-weight: bold;
+	 font-family: 
 }
