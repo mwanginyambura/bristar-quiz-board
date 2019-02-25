@@ -10,10 +10,10 @@
 ##Contact mwanginyambura19@gmail.com
 ##known bugs
 none for know.
-\##BDD
-| Behaviour   | Input     | Output
-| :------------- | :------------- | :------------|
-| :inputs from radio button should take values     |  : 0,4     | :True|
+##BDD
+| Behaviour                                   | Input     | Output
+| :------------------------------------------ | :------------- | :------------|
+| :inputs from radio button should take values|  : 0,4     | :True|
 | :inputs from  radio button should choose one answer |:a||b||c |: True |
 | :display submit button should show the answer in % |: 10-100%| :True |
 ###LICENSE
