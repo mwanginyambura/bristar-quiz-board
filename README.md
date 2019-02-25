@@ -11,6 +11,9 @@
 ##known bugs
 none for know.
 ##BDD
+In order for the program to run well and display the correct output, the code had to meet certain conditions.
+1. choose a choice .
+2. all questions had to be answered.
 | Behaviour                                           | Input          |  Output
 | :------------------------------------------         | :------------- | :------------
 | :inputs from radio button should take values        |    0,4         | :True
