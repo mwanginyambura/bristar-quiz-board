@@ -13,3 +13,25 @@ $(document).ready(function() {
     $("#result").text("you have scored:" + percent + "%");
   });
 });
+function getResult(sum) {
+ if (percent < 40){
+   result = 'You have failed!';
+   return result
+ } else if ( percent > 40 && percent < 80) {
+   result = 'you have fairly passed!';
+   return result
+ } else (){
+   result = 'congratualtions you have passed the test!';
+   return result
+ }
+}
+
+/* displayResult = getResult(sum1);
+
+$("#display").text(displayResult);
+ });
+
+$('#restart').click(function() {
+   location.reload();
+ });
+}); */
