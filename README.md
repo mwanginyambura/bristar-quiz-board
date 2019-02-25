@@ -3,11 +3,14 @@
 ##Description
  This is a site where individuals can be able to do a test online and receive their marks immediately.
 ##Technologies used I used:
- HTML.
- CSS.
- jQuery.
-##SETUP INSTRUCTIONS A user should choose the answer they think is correct in the input fields provided then click on the submit button at the end to find out the marks they got.
-##Contact mwanginyambura19@gmail.com
+ * HTML.
+ * CSS.
+ * jQuery.
+##SETUP INSTRUCTIONS
+ A user should choose the answer they think is correct in the input fields provided then click on the submit button at the end to find out the marks they got.
+##Contact
+1. mwanginyambura19@gmail.com
+2. phone number: 07120345078
 ##known bugs
 none for know.
 ##BDD
