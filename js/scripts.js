@@ -11,18 +11,18 @@ $(document).ready(function() {
     var total = (qz1 + qz2 + qz3 + qz4 + qz5 + qz6 + qz7);
     var percent = ((total / 40) * 100);
     $("#result").text("you have scored:" + percent + "%");
-  if (percent > 79) {
-    $("#result").text("you have scored:" + percent + "%" + " KUDOOS");
-    $("#result").slideUp();
-  } else if (percent > 59 && percent < 79) {
-    $("#result").text("you have scored:" + percent + "%" + " FAIR");
-    $("#result").slideToggle();
-  } else if (percent > 39 && percent < 59) {
-    $("#result").text("you have scored:" + percent + "%" + " PULL UP YOUR SOCKS");
-    $("#result").slideToggle();
-  } else {
-    $("#result").text("you have scored:" + percent + "%" + " FAIL");
-    $("#result").slideToggle();
-  };
-});
+    if (percent > 79) {
+      $("#result").text("you have scored:" + percent + "%" + " KUDOOS");
+      $("#result").slideUp();
+    } else if (percent > 59 && percent < 79) {
+      $("#result").text("you have scored:" + percent + "%" + " FAIR");
+      $("#result").slideToggle();
+    } else if (percent > 39 && percent < 59) {
+      $("#result").text("you have scored:" + percent + "%" + " PULL UP YOUR SOCKS");
+      $("#result").slideToggle();
+    } else {
+      $("#result").text("you have scored:" + percent + "%" + " FAIL");
+      $("#result").slideToggle();
+    };
+  });
 });
