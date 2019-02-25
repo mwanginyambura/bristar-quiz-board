@@ -1,10 +1,19 @@
- body {
+ body{
    font-size: 20px;
-   background-color: lightpink;
-   font-family: sans-serif;
+   font-family: 'Coiny', cursive;
+   float:center;
+  background-color:grey;
+  text-align: center;
  };
-#h1{
+ .container{
+   overflow-x: hidden;
+ }
+p{
 	font-size: 20px;
 	 font-weight: bold;
-	 font-family: Amatic SC;
+font-family: 'Indie Flower', cursive;
+
+}
+input,#name1{
+  text-align: center;
 }

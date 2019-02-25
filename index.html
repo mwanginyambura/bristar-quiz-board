@@ -5,61 +5,75 @@
   <title>BRISTAR QUIZ BOARD</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.google.com/?selection.family=Amatic+SC">
+  <link href="https://fonts.googleapis.com/css?family=Coiny|Indie+Flower" rel="stylesheet">
 </head>
 
 <body>
-  <div=class="container">
-    <div class="jumbotron" <h1>~~COMPUTER QUIZ~~</h1>
-    </div>
-    <form id="qz">
-      First Name:<br>
-      <input type="text"  id="name1"><br>
-      Second Name:<br>
-      <input type="text"  id="name2"><br>
+  <div class="row">
+      <div class="col-md-2">
 
-      <p>1.In MS-Access press ctrl + O to:</p>
-      <input name="qz1" type="radio" value="0">A)Open a new database<br>
-      <input name="qz1" type="radio" value="4">B)Open an existing database<br>
-      <input name="qz1" type="radio" value="0">C)Exit MS-Access<br>
+      </div>
+      <div class="col-md-8">
+        <div=class="container">
+          <div class="jumbotron" <h1>~~COMPUTER QUIZ~~</h1>
+            <img src="https://media.istockphoto.com/vectors/quiz-on-school-board-vector-id853914782" width="100" height="100">
+          </div>
+          <div class="well">
+          <form id="qz">
+            First Name:<br>
+            <input type="text"  id="name1"><br>
+            Second Name:<br>
+            <input type="text"  id="name2"><br>
+
+            <p>1.In MS-Access press ctrl + O to:</p>
+            <input name="qz1" type="radio" value="0">A)Open a new database<br>
+            <input name="qz1" type="radio" value="4">B)Open an existing database<br>
+            <input name="qz1" type="radio" value="0">C)Exit MS-Access<br>
 
 
-      <p>2.Which one is not a tag?</p>
-      <input name="qz2" type="radio" value="0">A)header<br>
-      <input name="qz2" type="radio" value="5">B)tailer<br>
-      <input name="qz2" type="radio" value="0">C)footer<br>
+            <p>2.Which one is not a tag?</p>
+            <input name="qz2" type="radio" value="0">A)header<br>
+            <input name="qz2" type="radio" value="5">B)tailer<br>
+            <input name="qz2" type="radio" value="0">C)footer<br>
 
-      <p>3.In MS-Access to open a combo box:</P>
-      <input name="qz3" type="radio" value="0">A)F9<br>
-      <input name="qz3" type="radio" value="0">B)Page down<br>
-      <input name="qz3" type="radio" value="5">C)F4 or ALT+DOWN ARROW<br>
+            <p>3.In MS-Access to open a combo box:</P>
+            <input name="qz3" type="radio" value="0">A)F9<br>
+            <input name="qz3" type="radio" value="0">B)Page down<br>
+            <input name="qz3" type="radio" value="5">C)F4 or ALT+DOWN ARROW<br>
 
-      <p>4.There are three types of data found in a spreadsheet:</p>
-      <input name="qz4" type="radio" value="0">A)Equations,data,numbers<br>
-      <input name="qz4" type="radio" value="0">B)Numbers,formula,labels<br>
-      <input name="qz4" type="radio" value="6">C)Dta,words,numbers<br>
-      <p>5.Which symbol must all formula begin with:</p>
-      <input name="qz5" type="radio" value="0">A)@<br>
-      <input name="qz5" type="radio" value="6">B)=<br>
-      <input name="qz5" type="radio" value="0">C)%<br>
-      <p>6.To merge the cells which tab do you use the format,cells menu?</p>
-      <input name="qz6" type="radio" value="0"> A)Alignment tab<br>
-      <input name="qz6" type="radio" value="9">B)Number tab<br>
-      <input name="qz6" type="radio" value="0">C)Merge tab<br>
+            <p>4.There are three types of data found in a spreadsheet:</p>
+            <input name="qz4" type="radio" value="0">A)Equations,data,numbers<br>
+            <input name="qz4" type="radio" value="0">B)Numbers,formula,labels<br>
+            <input name="qz4" type="radio" value="6">C)Dta,words,numbers<br>
+            <p>5.Which symbol must all formula begin with:</p>
+            <input name="qz5" type="radio" value="0">A)@<br>
+            <input name="qz5" type="radio" value="6">B)=<br>
+            <input name="qz5" type="radio" value="0">C)%<br>
+            <p>6.To merge the cells which tab do you use the format,cells menu?</p>
+            <input name="qz6" type="radio" value="0"> A)Alignment tab<br>
+            <input name="qz6" type="radio" value="9">B)Number tab<br>
+            <input name="qz6" type="radio" value="0">C)Merge tab<br>
 
-      <p>7.In an excel sheet the active cell is indicated by:</p>
-      <input name="qz7" type="radio" value="0" />A)A blinking border<br>
-      <input name="qz7" type="radio" value="0" />B)None of these<br>
-      <input name="qz7" type="radio" value="5" />C)A dark wide boarder<br>
-      <div class="jumbotron">
-        <button type="submit" class="btn btn-success">Submit</button>
-        <button type="reset">Reset</button>
+            <p>7.In an excel sheet the active cell is indicated by:</p>
+            <input name="qz7" type="radio" value="0" />A)A blinking border<br>
+            <input name="qz7" type="radio" value="0" />B)None of these<br>
+            <input name="qz7" type="radio" value="5" />C)A dark wide boarder<br>
+            <div class="jumbotron">
+              <button type="submit" class="btn btn-success">Submit</button>
+              <button type="reset">Reset</button>
 
-    </form>
-    <div id="result"></div>
-    <div id="answer"></div>
-    </div>
-    </div>
+          </form>
+        </div>
+           <div id="result"> score</div>
+          </div>
+          <img src="https://zoroastriansnet.files.wordpress.com/2016/11/congrats.gif" width="100" height="100">
+        </div>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+  </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
