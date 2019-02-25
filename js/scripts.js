@@ -13,7 +13,7 @@ $(document).ready(function() {
     $("#result").text("you have scored:" + percent + "%");
     if (percent > 79) {
       $("#result").text("you have scored:" + percent + "%" + " KUDOOS");
-      $("#result").slideUp();
+      $("#result").slideToggle();
     } else if (percent > 59 && percent < 79) {
       $("#result").text("you have scored:" + percent + "%" + " FAIR");
       $("#result").slideToggle();
