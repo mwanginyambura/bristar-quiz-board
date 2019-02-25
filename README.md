@@ -13,6 +13,8 @@
 2. phone number: 07120345078
 ##known bugs
 No known bugs.
+##Get Link:
+Reach it through:https://mwanginyambura.github.io/bristar-quiz-board/
 ##BDD
 In order for the program to run well and display the correct output, the code had to meet certain conditions.
 1. choose a choice .
