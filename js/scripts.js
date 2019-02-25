@@ -10,7 +10,7 @@ $(document).ready(function() {
     var qz7 = parseInt($("input:radio[name=qz7]:checked").val());
     var total = (qz1 + qz2 + qz3 + qz4 + qz5 + qz6 + qz7);
     var percent = ((total / 40) * 100);
-    $("#result").text("you have scored:" + percent + "%");
+    // $("#result").text("you have scored:" + percent + "%");
     if (percent > 79) {
       $("#result").text("you have scored:" + percent + "%" + " KUDOOS");
       $("#result").slideToggle();
